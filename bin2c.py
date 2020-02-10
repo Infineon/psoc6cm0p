@@ -16,6 +16,7 @@ copyright = """/****************************************************************
 ********************************************************************************
 * \\copyright
 * Copyright (c) 2018-2019 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: LicenseRef-PBL
 *
 * Licensed under the Permissive Binary License
 *******************************************************************************/
