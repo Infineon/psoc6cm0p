@@ -19,7 +19,18 @@ Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 du
     starts CM4 core at CY_CORTEX_M4_APPL_ADDR=0x10020000
     and puts CM0+ core into a deep sleep mode.
 
+* [COMPONENT_CM0P_SECURE](./COMPONENT_CM0P_SECURE/README.md)
+
+    This image starts CM4 core at address corresponding
+    to Secure Boot policy, sets required security settings,
+    initializes and executes code of Protected Register Access
+    driver, puts CM0+ core into a deep sleep mode.
+
 ### What Changed?
+
+#### v1.2.0
+* New secure image (COMPONENT_CM0P_SECURE)
+* Update to PDL 1.6.0
 #### v1.1.2
 * Rebuilt with PSoC 6 Peripheral Driver Library version 1.5.0.
 * COMPONENT_CM0P_BLESS image was updated to use BLESS 3.40 Middleware library. This fixes [CVE-2019-16336](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16336) and [CVE-2019-17061](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17061) Vulnerabilities.
@@ -48,8 +59,8 @@ This version of the (PSoC 6 Cortex M0+ prebuilt images) was validated for compat
 
 ### More information
 Use the following links for more information, as needed:
-* [Cypress](http://www.cypress.com)
+* [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
 ---
-Copyright (c) Cypress Semiconductor Corporation, 2019.
+Copyright (c) Cypress Semiconductor Corporation, 2020.
