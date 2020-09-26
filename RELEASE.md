@@ -28,16 +28,18 @@ Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 du
 
 ### What Changed?
 
+#### v2.0.0
+* Rebuilt with Peripheral Driver Library (mtb-pdl-cat1) version 2.0.0.
 #### v1.2.0
 * New secure image (COMPONENT_CM0P_SECURE)
-* Update to PDL 1.6.0
+* Rebuilt with PSoC 6 Peripheral Driver Library (psoc6pdl) version 1.6.0.
 #### v1.1.2
-* Rebuilt with PSoC 6 Peripheral Driver Library version 1.5.0.
+* Rebuilt with PSoC 6 Peripheral Driver Library (psoc6pdl) version 1.5.0.
 * COMPONENT_CM0P_BLESS image was updated to use BLESS 3.40 Middleware library. This fixes [CVE-2019-16336](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16336) and [CVE-2019-17061](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17061) Vulnerabilities.
 #### v1.1.1
-* Rebuilt with PSoC 6 Peripheral Driver Library version 1.4.1.
+* Rebuilt with PSoC 6 Peripheral Driver Library (psoc6pdl) version 1.4.1.
 #### v1.1.0
-* Rebuilt with PSoC 6 Peripheral Driver Library version 1.4.0.
+* Rebuilt with PSoC 6 Peripheral Driver Library (psoc6pdl) version 1.4.0.
 * COMPONENT_CM0P_BLESS image was updated to use BLESS 3.30 Middleware library
 * Increased memory slot in COMPONENT_CM0P_CRYPTO from 32K to 40K
 
