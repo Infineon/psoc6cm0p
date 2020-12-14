@@ -28,6 +28,12 @@ Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 du
 
 ### What Changed?
 
+#### v2.1.0
+* COMPONENT_CM0P_SECURE image updated to include:
+  * WDT management per policy settings
+  * Support swap upgrade mode in CypressBootloader
+  * External clocks and SRAM power modes management per policy settings
+* Rebuild with Peripheral Driver Library (mtb-pdl-cat1) version 2.1.0.
 #### v2.0.1
 * COMPONENT_CM0P_BLESS image was updated to use BLESS 3.50 Middleware library.
 #### v2.0.0
