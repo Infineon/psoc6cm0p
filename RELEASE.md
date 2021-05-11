@@ -28,6 +28,12 @@ Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 du
 
 ### What Changed?
 
+#### v2.1.2
+* COMPONENT_CM0P_SECURE image updated:
+  * Do not use default initialization, keep clocks configuration, set by Secure FlashBoot
+  * Add supoort for `cysecuretools 3.1.x`
+#### v2.1.1
+* Rebuild with Peripheral Driver Library (mtb-pdl-cat1) version 2.2.0.
 #### v2.1.0
 * COMPONENT_CM0P_SECURE image updated to include:
   * WDT management per policy settings
