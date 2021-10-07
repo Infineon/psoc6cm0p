@@ -1,3 +1,27 @@
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: File Name: elf2c.bat
+::
+:: Description:
+:: Basic batch script to convert the programmable sections of an *.elf file
+:: into a basic c array. This uses objcopy and python.
+::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Copyright 2019-2021 Cypress Semiconductor Corporation (an Infineon company)
+:: or an affiliate of Cypress Semiconductor Corporation
+::
+:: Licensed under the Apache License, Version 2.0 (the "License");
+:: you may not use this file except in compliance with the License.
+:: You may obtain a copy of the License at
+::
+::      http://www.apache.org/licenses/LICENSE-2.0
+::
+:: Unless required by applicable law or agreed to in writing, software
+:: distributed under the License is distributed on an "AS IS" BASIS,
+:: WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+:: See the License for the specific language governing permissions and
+:: limitations under the License.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 :: Path to Elf2Bin tool
 ::set ELF2BIN=C:/Program Files (x86)/GNU Tools ARM Embedded/7 2018-q2-update/bin/arm-none-eabi-objcopy.exe
 set ELF2BIN=%USERPROFILE%\ModusToolbox\tools_2.1\gcc-7.2.1\bin\arm-none-eabi-objcopy.exe
