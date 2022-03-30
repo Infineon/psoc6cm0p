@@ -28,6 +28,15 @@ Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 du
 
 ### What Changed?
 
+#### v2.2.0
+* CM0P_BLESS image is updated with BLESS firmware version bless-5.0.10.347
+
+#### v2.1.4
+* Rebuilt with Peripheral Driver Library (mtb-pdl-cat1) version 2.3.1
+
+#### v2.1.3
+* Rebuilt with Peripheral Driver Library (mtb-pdl-cat1) version 2.3.0
+
 #### v2.1.2
 * COMPONENT_CM0P_SECURE image updated:
   * Do not use default initialization, keep clocks configuration, set by Secure FlashBoot
