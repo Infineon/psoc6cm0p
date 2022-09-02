@@ -28,8 +28,19 @@ Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 du
 
 ### What Changed?
 
+#### v2.3.0
+* CM0P_BLESS image is updated with BLESS firmware version bless-5.0.10.400
+* Known Issues:
+   *   With PSoC 6 BLE, if LE Privacy is enabled and the device resolving list (RL) is non empty, IUT as advertiser does not respond to Scan request or connect request from peers which are using Resolvable Private Address (RPA) but are not present in the RL.
+       Workaround is to clean the resolving list and disable address resolution before starting advertisements.
+
 #### v2.2.0
 * CM0P_BLESS image is updated with BLESS firmware version bless-5.0.10.347
+* Known Issues:
+   i.  With ble app running in PSoC 6 BLE, when Remote Device A is bonded, Remote Device B would have scanning/connecting issues.
+       Recovery is to delete the bonding of Remote Device A.
+   ii. While running BLE stress test cases, some times controller stops sending HostMsgFlushRecvCallBack to HOST for the sent messages. This blocks all further operations.
+       Recovery is to reset the board.
 
 #### v2.1.4
 * Rebuilt with Peripheral Driver Library (mtb-pdl-cat1) version 2.3.1
