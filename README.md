@@ -1,5 +1,9 @@
 # PSoC 6 Cortex M0+ prebuilt images
 
+```diff
+- This asset is now deprecated. Please use cat1cm0p (https://github.com/Infineon/cat1cm0p)
+```
+
 ### Overview
 
 Prebuilt application images are executed on the Cortex M0+ core of the PSoC 6 dual-core MCU.
